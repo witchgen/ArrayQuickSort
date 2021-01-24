@@ -8,7 +8,7 @@ namespace ArrayQuickSort
         {
             for (int i = 0; i < arr.Length; i++)
             {
-                Console.WriteLine("Arr [" + i + "] = " + arr[i]);
+                Console.WriteLine($"Arr [{i}] = " + arr[i]);
             }
         }
 
@@ -64,7 +64,7 @@ namespace ArrayQuickSort
                 int[] arr = new int[arrLen];
                 for (int i = 0; i < arrLen; i++) //Cycle for entering elements of our array
                 {
-                    Console.WriteLine("Element [" + i + "]: ");
+                    Console.WriteLine($"Element [{i}]: ");
                     arr[i] = Convert.ToInt32(Console.ReadLine());
                 }
                 Console.WriteLine("\nSorted array:");
