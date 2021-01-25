@@ -70,7 +70,7 @@ namespace ArrayQuickSort
                 Console.WriteLine("\nSorted array:");
                 ShowArray(QuickSort(arr)); //Displaying array that's already been sorted
             }
-            catch (FormatException) { Console.WriteLine("Incorrect data!"); }
+            catch (FormatException f_ex) { Console.WriteLine("Incorrect data! "+$"{f_ex.Message}"); }
         }
     }
 }
